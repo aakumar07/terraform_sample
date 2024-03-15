@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform-remote-backend-s3"
-    key    = "dev1/myblk123"
+    bucket = "myblk123"
+    key    = "dev1/tfstate"
     region = "us-east-2"
   }
 }
